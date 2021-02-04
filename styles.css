@@ -1,0 +1,37 @@
+.techImg{
+    background-image: url("farzad-nazifi-p-xSl33Wxyc-unsplash.jpg");
+    min-height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 56px;
+}
+.cityImg{
+    background-image: url("malte-schmidt-enGr5YbjQKQ-unsplash.jpg");
+    min-height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 56px;
+}
+
+.contactImg{
+    background-image: url("ian-dooley-dcqMsxhU4zo-unsplash.jpg");
+    min-height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 56px;
+}
+
+nav, footer{
+    background-color: black;
+}
+
+.centering{
+    padding-top: 125px;
+    color: black;
+}
