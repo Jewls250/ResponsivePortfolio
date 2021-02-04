@@ -15,6 +15,7 @@
     background-size: cover;
     position: relative;
     margin-top: 56px;
+
 }
 
 .contactImg{
@@ -32,6 +33,25 @@ nav, footer{
 }
 
 .centering{
-    padding-top: 125px;
+    padding-top: 80px;
     color: black;
 }
+
+a, a:hover{
+    color: black;
+}
+
+
+#contactInfoPadding{
+    padding-top: 180px;
+}
+
+#headerOutline{
+    -webkit-text-stroke: 2px black;
+    font-size: 50px;
+}
+
+ .card:hover{
+    box-shadow: black 0px 7px 29px 0px;
+ }
+
