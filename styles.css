@@ -51,7 +51,34 @@ a, a:hover{
     font-size: 50px;
 }
 
- .card:hover{
+ #mySkills:hover , #myProjects:hover{
     box-shadow: black 0px 7px 29px 0px;
  }
 
+#socialMedia{
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+#aboutMeCard:hover{
+    box-shadow: white 0px 7px 29px 0px;
+}
+
+#socialMedia:hover{
+    box-shadow: white 0px 7px 29px 0px;
+}
+
+.socialMedias{
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+}
+
+#aboutMeCard{
+    width: 33%;
+}
+
+#profilePicture{
+    border-radius: 50%;
+    
+}
