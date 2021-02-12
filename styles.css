@@ -8,7 +8,7 @@
     margin-top: 56px;
 }
 .cityImg{
-    background-image: url("malte-schmidt-enGr5YbjQKQ-unsplash.jpg");
+    background-image: url("matt-nelson-z4X3yABcf5g-unsplash.jpg");
     min-height: 1000px;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,5 +80,4 @@ a, a:hover{
 
 #profilePicture{
     border-radius: 50%;
-    
 }

@@ -22,36 +22,36 @@
             <div id="my-nav" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active mx-1">
-                        <a class="nav-link text-white" href="#">Home</a>
+                        <a class="nav-link text-white" href="#home">Home</a>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link disabled text-white" href="#" tabindex="-1"
+                        <a class="nav-link text-white" href="#skills" tabindex="-1"
                             aria-disabled="true">Skills</a>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link disabled text-white" href="#" tabindex="-1"
+                        <a class="nav-link text-white" href="#aboutMe" tabindex="-1"
                             aria-disabled="true">About Me</a>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link disabled text-white" href="#" tabindex="-1"
+                        <a class="nav-link text-white" href="#projects" tabindex="-1"
                             aria-disabled="true">Projects</a>
                     </li>
                    <li class="nav-item mx-1">
-                       <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Contact
+                       <a class="nav-link text-white" href="#contactMe" tabindex="-1" aria-disabled="true">Contact
                            Me</a>
                    </li>
                 </ul>
             </div>
         </nav>
     </header>
-    <div class="techImg">
+    <div class="techImg home" id="home">
         <div class="centering">
             <h1 class="text-white text-center" id="headerOutline">Hello, My name is Giuliano Serawop</h1>
             <H2 class="text-white text-center" id="headerOutline">Im a FullStack Developer</H2>
         </div>
     </div>
-    <div>
-        <H1 class="text-center my-5">My Skills</H1>
+    <div class="skills" id="skills">
+        <H1 class="text-center my-5" >My Skills</H1>
         <div class="card-columns p-5">
             <div class="card m-5 mx-auto">
                 <div class="card-body" id="mySkills">
@@ -93,12 +93,12 @@
             </div>
         </div>
     </div>
-    <div class="cityImg">
+    <div class="cityImg aboutMe" id="aboutMe">
         <h1 class="text-center p-5 text-white" id="headerOutline">About me</h1>
         
          <div id="aboutMeCard" class="mx-auto">
             <div class="card text-left">
-              <img class="card-img-top" id="profilePicture" src="ian-dooley-dcqMsxhU4zo-unsplash.jpg" alt="">
+              <img class="card-img-top" id="profilePicture" src="clark-tibbs-oqStl2L5oxI-unsplash.jpg" alt="">
               <div class="card-body">
                 <h4 class="card-title"></h4>
                 <p class="card-text"><strong>Phone Number:</strong> 435-549-9940</p>
@@ -135,7 +135,7 @@
              </section>
          </div>
     </div>
-    <div>
+    <div class="projects" id="projects">
         <div>
             <H1 class="text-center my-5">My Projects</H1>
             <div class="card-columns p-5">
@@ -144,7 +144,6 @@
                         <h4 class="card-title text-center"><a href="https://jewls250.github.io/PasswordGen/"
                                 target="_blank">Password
                                 Generator</a></h4>
-                        <p class="card-text text-center"><i class="fab fa-html5 fa-4x"></i></p>
                     </div>
                 </div>
                 <div class="card m-5 mx-auto">
@@ -152,7 +151,6 @@
                         <h4 class="card-title text-center"><a href="https://jewls250.github.io/DailyPlanner/"
                                 target="_blank">Daily
                                 Planner</a></h4>
-                        <p class="card-text text-center"><i class="fab fa-css3-alt fa-4x"></i></p>
                     </div>
                 </div>
                 <div class="card m-5 mx-auto">
@@ -160,15 +158,13 @@
                         <h4 class="card-title text-center"><a href="https://jewls250.github.io/weatherApp/"
                                 target="_blank">Weather
                                 Forcast</a></h4>
-                        <p class="card-text text-center"><i class="fab fa-js-square fa-4x"></i></p>
                     </div>
                 </div>
             </div>
             <div class="card-columns p-5">
                 <div class="card m-5 mx-auto">
                     <div class="card-body" id="myProjects">
-                        <h4 class="card-title text-center">React</h4>
-                        <p class="card-text text-center"><i class="fab fa-react fa-4x"></i></p>
+                        <h4 class="card-title text-center"></h4>
                     </div>
                 </div>
                 <div class="card m-5 mx-auto">
@@ -176,19 +172,17 @@
                         <h4 class="card-title text-center"><a href="https://jordonbobo.github.io/AlphaInvestments/"
                                 target="_blank">Alpha
                                 Investments</a></h4>
-                        <p class="card-text text-center"><i class="fab fa-node fa-4x"></i></p>
                     </div>
                 </div>
                 <div class="card m-5 mx-auto">
                     <div class="card-body" id="myProjects">
-                        <h4 class="card-title text-center">MongoDB</h4>
-                        <p class="card-text text-center"><i class="fab fa-mdb fa-4x"></i></p>
+                        <h4 class="card-title text-center"></h4>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="contactImg">
+    <div class="contactImg contactMe" id="contactMe">
         <section class="container" id="contactInfoPadding">
         <section class="jumbotron margin bg-white">
             <form action="" class="mx-auto">
