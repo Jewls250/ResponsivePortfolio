@@ -1,12 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
-
 
 html {
   scroll-behavior: smooth;
-}
-
-*{
-    font-family: 'alegreya', serif;
 }
 
 .custom-toggler, .navbar-toggler {
@@ -62,7 +56,7 @@ a, a:hover{
 }
 
 #headerOutline{
-    -webkit-text-stroke: .5px rgb(0, 0, 0);
+    -webkit-text-stroke: 3.5px rgb(0, 0, 0);
     font-size: 65px;
     font-weight: 600;
 }
