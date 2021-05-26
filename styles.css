@@ -15,6 +15,7 @@ html {
     background-size: cover;
     position: relative;
     margin-top: 56px;
+    background-attachment: fixed;
 }
 .cityImg{
     background-image: url("matt-nelson-z4X3yABcf5g-unsplash.jpg");
@@ -24,7 +25,7 @@ html {
     background-size: cover;
     position: relative;
     margin-top: 56px;
-
+    background-attachment: fixed;
 }
 
 .contactImg{
@@ -35,6 +36,7 @@ html {
     background-size: cover;
     position: relative;
     margin-top: 56px;
+    background-attachment: fixed;
 }
 
 nav, footer{
@@ -42,8 +44,11 @@ nav, footer{
 }
 
 .centering{
-    padding-top: 80px;
-    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 a, a:hover{
